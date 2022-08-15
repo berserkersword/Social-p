@@ -22,7 +22,7 @@ function Porn({ category }) {
                 data ?
                     data.map(res => {
                         return (
-                            <div className='card m-1 col-3' style={{ display: 'inline-block' }} key={res.id}>
+                            <div className='card m-1 col-lg-3 col-sm-1' style={{ display: 'inline-block' }} key={res.id}>
                                 <a className='card-img-top' href={res.embed}>
                                     <img src={res.default_thumb.src} className='img-fluid' style={{ width: res.default_thumb.width, height: res.default_thumb.height }} alt="imagess alt" />
                                 </a>
